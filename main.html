@@ -1,0 +1,222 @@
+﻿<html>
+	<head lang='rus'>
+		<title> Anketa </title>
+		<link rel="stylesheet" type="text/css" href='style.css'/>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="moves.js"></script>
+		<meta charset="utf-8"/> 
+	</head>		
+		
+	<body> 
+		<div class='wrapper'>
+			<div class='labelCompany'> 
+				<div class='labelCompanyText'>Секретный архив учреждения</div>
+			</div>
+			<div class='labelSecret'></div>
+			
+			<div class='title'></div>
+			<div class='contain'>
+				<div class='forQuestion'>
+					<div class='question'>Полное ФИО</div><input type='text' maxlength='50' class='answer' value='Соколова Татьяна Евгеньевна'></input>
+				</div>
+				<div class='forQuestion'>
+					<div class='question'>Год рождения</div><input type='text' maxlength='4' class='answer' value='1990'></input>
+				</div>
+				<div class='forQuestion'>
+					<div class='question'>Место жительства</div><input type='text' maxlength='50' class='answer' value='г. Челябинск, Россия'></input>
+				</div>
+				<div class='forQuestion'>
+					<div class='question'>Скайп</div><input type='text' maxlength='30' class='answer' value='cool_detka_XD'></input>
+				</div>
+				<div class='forQuestion'>
+					<div class='question'>Почта</div><input type='text' maxlength='30' class='answer' value='tanyusokolova@gmail.com'></input>
+				</div>
+				<div class='forQuestion selectYesNo'>
+					<div class='question'>Выпускник <a href='http://www.htmlacademy.ru'>htmlacademy.ru</a></div>
+					
+					<input type='radio' name='yesno' id='yesRadio'>
+						<label for='yesRadio'>
+							<span></span>Да
+						</label>
+					</input>
+					<input type='radio' name='yesno' id='noRadio' checked>
+						<label for='noRadio'>
+							<span></span>Нет
+						</label>
+					</input>
+					</div>
+				<div class='forQuestion'>
+					<div class='question'>Практические навыки</div>
+				</div>
+				<div class='notice'>*
+					<p>Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+				</div>
+				
+				<div class='list'>
+				
+					<div class='list1'>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb1'>
+								<label for='chb1'>
+									<span></span>Методология БЭМ
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb2'>
+								<label for='chb2'>
+									<span></span>jQuery
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb3'>
+								<label for='chb3'>
+									<span></span>Использую GRUNT
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb4'>
+								<label for='chb4'>
+									<span></span>HAML
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb5'>
+								<label for='chb5'>
+									<span></span>SASS
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb6' checked>
+								<label for='chb6'>
+									<span></span>LESS
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb7'>
+								<label for='chb7'>
+									<span></span>CoffeeScript
+								</label>
+							</input>
+						</div>
+					</div>
+					
+					<div class='list2'>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb8'>
+								<label for='chb8'>
+									<span></span>Верстка под Битрикс
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb9'>
+								<label for='chb9'>
+									<span></span>Темы для Wordpress
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb10'>
+								<label for='chb10'>
+									<span></span>Шаблоны под Joomla
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb11'>
+								<label for='chb11'>
+									<span></span>Верстка под Android
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb12'>
+								<label for='chb12'>
+									<span></span>Верстка под iOS
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb13'>
+								<label for='chb13'>
+									<span></span><div class='longName'>Верстка под Windows Phone</div>
+								</label>
+							</input>
+						</div>
+					</div>
+					
+					
+					<div class='list3'>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb14'>
+								<label for='chb14'>
+									<span></span>Шаблоны рассылок
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb15'>
+								<label for='chb15'>
+									<span></span>Адаптивная верстка
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb16' checked>
+								<label for='chb16'>
+									<span></span>Использую Dropbox
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>					
+							<input type='checkbox'  id='chb17' checked>
+								<label for='chb17'>
+									<span></span>Использую Gmail
+								</label>
+							</input>
+						</div>
+						<div class='listItems'>
+							<input type='checkbox'  id='chb18'>
+								<label for='chb18'>
+									<span></span>Использую GitHub
+								</label>
+							</input>
+						</div>
+					</div>
+				</div>
+				<div class='forQuestion titleJS'>
+					<div class='question'>Уровень владения JavaScript</div>
+				</div>
+
+				<div class='skillLevel'>
+					<div class='skillsMeter' id='scroller'></div>
+				
+					<div class='level0' id='lvl0'>
+						<div class='level0Text'>Не владею</div>
+					</div>
+					<div class='level1' id='lvl1'>
+						<div class='level1Text'>Использую готовые решения</div>
+					</div>
+					<div class='level2' id='lvl2'>
+						<div class='level2Text'>Использую готовые решения и умею их переделывать</div>
+					</div>
+					<div class='level3' id='lvl3'>
+						<div class='level3Text'>Пишу сложные скрипты</div>
+					</div>
+				</div>
+				
+				<div class='forQuestion date'>
+					<div class='question'>Дата заполнения</div>
+					<input type='text' maxlength='10' class='answer' value='15.06.2014'></input>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

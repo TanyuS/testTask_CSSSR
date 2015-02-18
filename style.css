@@ -1,0 +1,240 @@
+﻿a {
+	display: inline;
+}
+input[type='radio'],
+input[type='checkbox'] {
+	display: none;
+}
+input[type='radio'] + label span {
+	display: inline-block;
+	width: 41px;
+	height: 45px;
+	margin: 11px 0 -15px 13px;
+	background: url('img/checkbox1.png') no-repeat -41px 0;
+	cursor: pointer;
+}
+input[type='radio']:checked + label span{
+	background-position: 0 0;
+}
+input[type='checkbox'] + label span {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin: 0 0 -3px 13px;
+	background: url('img/checkbox2.png') no-repeat 0px 0;
+	cursor: pointer;
+}
+input[type='checkbox']:checked + label span{
+	background-position: -24px 0;
+}
+.wrapper {
+	width: 1001px;
+	height: 1500px;
+	position: absolute;
+	background: url('img/pattern.jpg');
+	left: 50%;
+	margin-left: -500px;
+	line-height: 30px;
+	font-size: 22px;
+	font-family: PT Sans;
+	font-weight: bold;
+	color: #2f1b15;
+}
+
+.labelCompany {
+	width: 154px;
+	height: 52px;
+	position: absolute;
+	left: 46px;
+	top: 60px;
+	background: url('img/logo.png');
+}
+.labelCompanyText {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 47px 0 0 6px;
+}
+.labelSecret {
+	width: 252px;
+	height: 106px;
+	position: absolute;
+	left: 696px;
+	top: 48px;
+	background: url('img/labelSecret.png');
+}
+.title {
+	width: 221px;
+	height: 118px;
+	position: absolute;
+	left: 370px;
+	top: 184px;
+	background: url('img/title.png');
+}
+.contain {
+	position: relative;
+	top: 354px;
+	width: 770px;
+}
+.forQuestion {
+	display: inline-flex;
+	width: 770px;
+	margin-left: 110px;
+	line-height: 62px;
+	white-space: nowrap;
+}
+.question {
+	display: inline-block;
+	float: left;
+	margin-right: 18px;
+}
+.answer {
+	width: 100%;
+	height: 44px;
+	padding-left: 11px;
+	flex: 2 2 0;
+	-webkit-flex: 2 2 0;
+	background: none;
+	border: 0px;
+	border-bottom: 3px solid #3f241e;
+	float: left;
+	font-family: Courier New;
+	font-size: 30px;
+	overflow: hidden;
+	
+}
+.selectYesNo {
+	margin-top: 11px;
+	margin-bottom: 7px;
+}
+
+.notice {
+	width: 770px;
+	display: block;
+	margin-left: 110px;
+	font-size: 32px;
+	white-space: normal;
+	text-align: justify;
+	line-height: 18px;
+	color: #3d3d3d;
+}
+.notice p {
+	width: 750px;
+	position: relative;
+	left: 20px;
+	top: -41px;
+	text-indent: 0px;
+	line-height: 22px;
+	font-size: 14px;
+	font-weight: normal;
+} 
+.list {
+	width: 796px;
+	position: relative;
+	top: -41px;
+	margin-left: 78px;
+	line-height: 35px;
+}
+.list1, 
+.list2,
+.list3 {
+	position: relative;
+	width: 239px;
+	font-size: 21px;
+	margin: 0 3px 0 19px;
+	white-space: nowrap;
+}
+.list1, 
+.list2 { float: left; }
+.list3 { 
+	float: right;
+	width: 237px;
+}
+.listItems {
+	display: block;
+	white-space: normal;
+}
+.longName {
+	margin-left: 38px;
+    margin-top: -24px;
+	line-height: 26px;
+	padding-top: 4px;
+}
+.skillLevel {
+	width: 777px;
+	height: 90px;
+	position: relative;
+	left: 115px;
+	top: -2px;
+	background: url('img/scrollerBg.png') no-repeat 0 0;
+}
+
+.skillsMeter {
+	width: 17px;
+	height: 14px;
+	position: absolute;
+	left: 148px;
+	top: 10px;
+	background: url('img/scroller.png') no-repeat 0 0;
+}
+.level0,
+.level1,
+.level2,
+.level3 {
+	height: 65px;
+	position: absolute;
+	display: inline;
+	top: 8px;
+	font-size: 13px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.level0 { 
+	left: 0px;
+	margin-left: 8px;
+	width: 100px;
+	text-align: left;
+}
+.level1 { 
+	left: 106px; 
+	width: 214px;
+}
+.level2 { 
+	left: 321px;
+	width: 170px;
+	padding: 0 0 0 58px;
+	text-align: left;
+	line-height: 18px;
+}
+.level3 { 
+	left: 551px;
+	width: 140px;
+	padding-left: 83px;
+}
+.level0Text, .level1Text,
+.level2Text, .level3Text {
+	position: absolute;
+	bottom: 0;
+}
+.level1Text {
+	right: 0;
+}
+.level2Text {
+	width: inherit;
+	bottom: -19px;
+}
+.level3Text {
+	right: 3px;
+	bottom: -5px;
+}
+.forQuestion.titleJS {
+	margin-top: 15px;
+	margin-left: 121px;
+}
+.forQuestion.date {
+	margin-top: 48px;
+}
+.date .answer { 
+	width: 206px;
+	flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
+}
